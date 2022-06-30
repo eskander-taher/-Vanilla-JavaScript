@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: lightgrey;
+}
+
+.btn {
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#counter{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
